@@ -1,0 +1,32 @@
+:root {
+  --colNum: 11;
+  --rowNum: 22;
+}
+
+.grid-container 
+{
+  display: inline-grid;
+  border: 1px solid black;
+  grid-template-columns: repeat(var(--colNum), 28px);
+  grid-template-rows: repeat(var(--rowNum), 28px);
+  background-color: lightblue;
+  padding: 0px;
+  font-size: 10px;
+  text-align: center;
+}
+.tile-robovac 
+{
+  background-image: url('images/robovac2.jpg');
+}
+.tile-clean
+{
+  background-color: white;
+}
+.tile-dirty 
+{
+  background-color: grey;  
+}
+.tile-test 
+{
+  background-color: darkorange;  
+}
