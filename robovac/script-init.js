@@ -15,8 +15,8 @@ function initFloor()
   for(a = 0; a < amax; a++)
   {
     var element = document.createElement("div");
-    var text = document.createTextNode(a);
-    element.appendChild(text);
+    // var text = document.createTextNode(a);
+    // element.appendChild(text);
     container.appendChild(element);
   }
 
